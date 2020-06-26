@@ -1,35 +1,70 @@
 body {
   box-sizing: border-box;
-  display: grid;
+  margin: 0;
+  padding: 0;
+}
+@keyframes lightgoldenyellow {
+   {
+  }
 }
 
-
-
-.red {
+.lightgoldenyellow {
   width: 100px;
   height: 100px;
   border: 1px solid red;
-  background-color: red;
+  background-color: lightgoldenrodyellow;
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
+  animation-name: lightgoldenyellow;
+  animation-duration: 4s;
 }
 
-.blue {
+@keyframes lightblue {
+   {
+  }
+}
+
+.lightblue {
   width: 100px;
   height: 100px;
   border: 1px solid blue;
-  background-color: blue;
-
+  background-color: lightblue;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  animation-name: lightblue;
+  animation-duration: 4s;
+}
+@keyframes lightcoral {
+   {
+  }
 }
 
-.pink {
+.lightcoral {
   width: 100px;
   height: 100px;
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
   border: 1px solid hotpink;
-  background-color: hotpink;
+  background-color: lightcoral;
+  animation-name: lightcoral;
+  animation-duration: 4s;
+}
+@keyframes lightgreen {
+   {
+  }
 }
 
-.green {
+.lightgreen {
   width: 100px;
   height: 100px;
-  border: 1px solid greenyellow;
-  background-color: greenyellow;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  border: 1px solid green;
+  background-color: lightgreen;
+  animation-name: lightgreen;
+  animation-duration: 4s;
 }
